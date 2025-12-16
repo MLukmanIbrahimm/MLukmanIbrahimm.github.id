@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anggler Store - Toko Pancing Purbalingga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo"><i class="fas fa-fish"></i> ANGGLER STORE</a>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang di Anggler Store</h1>
+            <p>Pusat Perlengkapan Pancing Terlengkap & Berkualitas</p>
+        </div>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="profile-section">
+        <div class="profile-container">
+            <h2>Tentang Kami</h2>
+            <p><strong>Anggler Store</strong> adalah toko peralatan pancing terpercaya yang beralamat di <strong>Jl.
+                    Raya Desa Prigi, Kabupaten Purbalingga</strong>. Kami menyediakan berbagai macam kebutuhan memancing
+                Anda mulai dari tegek, kail, senar, hingga pelampung dengan harga terjangkau dan kualitas terbaik. Mari
+                lengkapi hobi mancing Anda bersama kami!</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-container">
+        <h2 class="section-title">Produk Pilihan</h2>
+        <div class="product-grid">
+            <!-- Products will be injected via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Anggler Store. Jl Raya Desa Prigi, Purbalingga.</p>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Keranjang Belanja</h2>
+            <div class="cart-items">
+                <!-- Cart items will be here -->
+            </div>
+            <div class="cart-total">
+                Total: <span id="cart-total-amount">0</span>
+            </div>
+            <button class="checkout-btn">
+                <i class="fab fa-whatsapp"></i> Checkout via WhatsApp
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
